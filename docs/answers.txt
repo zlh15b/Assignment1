@@ -1,0 +1,36 @@
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 99.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/zlh15b/Assignment1.git
+   7becb40..494f200  master -> master
+
+
+
+
+
+
+
+
+Javier Escobar-Avila (2):
+      First version of the RoleGame prototype.
+      Main method changed
+
+unknown (2):
+      Small file update
+      log file updated
+
+zlh15b (1):
+      Small file update
+
+
+git shortlog
+
+
+
+
+
