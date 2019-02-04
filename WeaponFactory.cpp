@@ -10,7 +10,10 @@
 #include "CommonSword.h" 
 #include "CommonSpear.h"
 #include "SimpleHammer.h"
+<<<<<<< HEAD
 #include "Trident.h"
+=======
+>>>>>>> 511c4673ff5bbfd2d93c0784a1647313a2cd658f
 
 WeaponFactory* WeaponFactory::instance = NULL;
 
@@ -34,9 +37,12 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
 	return new SimpleHammer();
     }
 
+<<<<<<< HEAD
     if(name.compare("trident") == 0) {
 	return new Trident();
 	}
 
+=======
+>>>>>>> 511c4673ff5bbfd2d93c0784a1647313a2cd658f
     throw "Invalid weapon";
 }
