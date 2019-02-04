@@ -10,8 +10,15 @@
 #include "CommonSword.h" 
 #include "CommonSpear.h"
 #include "SimpleHammer.h"
+<<<<<<< HEAD
 #include "Trident.h"
 #include "CrazyRandomSword.h"
+=======
+<<<<<<< HEAD
+#include "Trident.h"
+=======
+>>>>>>> 511c4673ff5bbfd2d93c0784a1647313a2cd658f
+>>>>>>> 25afbe37ddea56ddc59f6bc68ac20ec86be4ff71
 
 WeaponFactory* WeaponFactory::instance = NULL;
 
@@ -35,6 +42,7 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
 	return new SimpleHammer();
     }
 
+<<<<<<< HEAD
     if(name.compare("trident") == 0) {
 	return new Trident();
 	}
@@ -42,5 +50,14 @@ Weapon * WeaponFactory::getWeapon(std::string name) {
    if(name.compare("crazyrandomsword") == 0) {
 	return new CrazyRandomSword();
 	}
+=======
+<<<<<<< HEAD
+    if(name.compare("trident") == 0) {
+	return new Trident();
+	}
+
+=======
+>>>>>>> 511c4673ff5bbfd2d93c0784a1647313a2cd658f
+>>>>>>> 25afbe37ddea56ddc59f6bc68ac20ec86be4ff71
     throw "Invalid weapon";
 }

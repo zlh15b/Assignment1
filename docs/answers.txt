@@ -1,5 +1,8 @@
+<<<<<<< HEAD
 
 (a)
+=======
+>>>>>>> 25afbe37ddea56ddc59f6bc68ac20ec86be4ff71
 $ git push
 Enumerating objects: 7, done.
 Counting objects: 100% (7/7), done.
@@ -17,7 +20,11 @@ To https://github.com/zlh15b/Assignment1.git
 
 
 
+<<<<<<< HEAD
 (b)
+=======
+
+>>>>>>> 25afbe37ddea56ddc59f6bc68ac20ec86be4ff71
 Javier Escobar-Avila (2):
       First version of the RoleGame prototype.
       Main method changed
@@ -32,6 +39,7 @@ zlh15b (1):
 
 git shortlog
 
+<<<<<<< HEAD
 (c)
 
 
@@ -69,6 +77,8 @@ A dictator and lieutenants is better because there would be too much confusion i
 (5)
 
 the game used polymorphism because multiple class interact with each other such as weapon and weapon factory.
+=======
+>>>>>>> 25afbe37ddea56ddc59f6bc68ac20ec86be4ff71
 
 
 

@@ -43,6 +43,10 @@ int main(int argc, char** argv) {
     simulateWeapon(weapon, armor);
     delete(weapon);
 
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 25afbe37ddea56ddc59f6bc68ac20ec86be4ff71
 
 
     weapon = WeaponFactory::getInstance()->getWeapon("trident");
@@ -50,11 +54,16 @@ int main(int argc, char** argv) {
      delete(weapon);
 
 
+<<<<<<< HEAD
      weapon = WeaponFactory::getInstance()->getWeapon("crazyrandomsword");
       simulateWeapon(weapon,armor);
 	delete(weapon);
 
 
+=======
+=======
+>>>>>>> 511c4673ff5bbfd2d93c0784a1647313a2cd658f
+>>>>>>> 25afbe37ddea56ddc59f6bc68ac20ec86be4ff71
 return 0;
 }
 
