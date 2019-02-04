@@ -1,0 +1,75 @@
+
+(a)
+$ git push
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 398 bytes | 99.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/zlh15b/Assignment1.git
+   7becb40..494f200  master -> master
+
+
+
+
+
+
+
+(b)
+Javier Escobar-Avila (2):
+      First version of the RoleGame prototype.
+      Main method changed
+
+unknown (2):
+      Small file update
+      log file updated
+
+zlh15b (1):
+      Small file update
+
+
+git shortlog
+
+(c)
+
+
+
+(d)
+Branching allows you to have an environment to create new ideas. It allows for peer review before committing a file.
+
+(e)
+git log lets a user see commits to a repository and git status lets you see files that have been staged.
+
+(f)
+
+git status
+
+(g)
+git log --all --grep='file'
+
+(h)
+Encapsulation is:
+Binding the data with the code that manipulates it.
+It keeps the data and the code safe from external interference
+
+Inheritance is the mechanism by which an object acquires the some/all properties of another object.
+It supports the concept of hierarchical classification.
+
+Polymorphism means to process objects differently based on their data type.
+
+(i)
+
+the difference between them is who can push to the repository. In integration, everyone can push. In dictator, only one can push.
+
+(j)
+A dictator and lieutenants is better because there would be too much confusion if 100 people were pushing and pulling at once.
+
+(5)
+
+the game used polymorphism because multiple class interact with each other such as weapon and weapon factory.
+
+
+
+
